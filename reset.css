@@ -14,7 +14,7 @@ q:before,q:after {content:'';}
 abbr,acronym {border:0;}
 a, a:hover, a:visited, a:active, a:link {text-decoration:none;}
 form {display: block;}
-textarea:focus, input:focus {outline: none;}
+textarea:focus, input:focus, select:focus {outline: none;}
 input, textarea, keygen, select, button, isindex { font: inherit; color: inherit; letter-spacing: inherit; word-spacing: inherit; line-height: inherit; text-transform: none; text-indent: 0; text-shadow: inherit; display: inline-block; text-align: inherit; border: none; }
 /* html5 block elements for IE. Stop using IE. */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, address {display: block;}
@@ -23,7 +23,6 @@ h1,h2,h3,h4,h5,h6 {font-size: 1.0em; }
 
 /* save your sanity */
 * { 
-  position: relative;
   -webkit-box-sizing: border-box;
    -khtml-box-sizing: border-box;
     -icab-box-sizing: border-box;
