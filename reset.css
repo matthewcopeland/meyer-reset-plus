@@ -1,6 +1,6 @@
 /* css reset based on the work by eric meyer */
 html,body {position:relative;margin:0;padding:0;min-height:100%;width:100%;height:100%;}
-div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td, keygen, select, button, isindex, hr {margin:0;padding:0;}
+div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td, keygen, select, button, button::-moz-focus-inner, isindex, hr {margin:0;padding:0;}
 table {border-collapse:collapse;border-spacing:0;}
 fieldset,img {border:0;}
 input, textarea{border:none;outline:none;padding:none;background-color:#fff;}
